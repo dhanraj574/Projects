@@ -1,0 +1,133 @@
+.appointments-app {
+    background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height:100vh;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  .appointments-card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    align-self: center;
+    flex-grow: 1;
+    padding: 50px;
+  }
+  .inputs-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .inputs-cont {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-right: 50px;
+  }
+  .img-cont {
+    align-self: center;
+  }
+  .img {
+    height: 200px;
+  
+    margin-top: 0px;
+  }
+  .addappointment-heading {
+    margin-top: 0px;
+    font-size: 25px;
+    color: #171f46;
+  }
+  .title {
+    margin-top: 20px;
+    color: #b5b7c4;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .title-input {
+    height: 30px;
+    width: 200px;
+    margin-top: 8px;
+    padding-left: 10px;
+    border: #b5b7c4 2px solid;
+    font-size: 12px;
+    border-radius: 3px;
+  }
+  
+  .date {
+    margin-top: 10px;
+    color: #b5b7c4;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .date-input {
+    height: 30px;
+    width: 200px;
+    margin-top: 8px;
+    padding-left: 10px;
+    border: #b5b7c4 2px solid;
+    font-size: 12px;
+    border-radius: 3px;
+  }
+  .add-btn {
+    margin-top: 20px;
+    height: 30px;
+    width: 60px;
+    background-color: #8b5cf6;
+    color: #ffffff;
+    border-width: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .appointments-cont {
+    border-top: 2px #b5b7c4 solid;
+  }
+  .appointments-topsection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .appointments-heading {
+    margin-top: 0px;
+    font-size: 22px;
+    color: #171f46;
+  }
+  .starred-btn-1 {
+    height: 25px;
+    width: 75px;
+    background-color: #ffffff;
+    color: #9897f0;
+    border: 2px #9897f0 solid;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .starred-btn-2 {
+    height: 25px;
+    width: 75px;
+    background-color: #9897f0;
+    color: #ffffff;
+    border: 2px #9897f0 solid;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .appointments-listcont {
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  @media (max-width:767px){
+    .img-cont{
+      display: none;
+    }
+    .appointments-card{
+      padding: 25px;
+    }
+    .title {
+      margin-top: 10px;
+    }
+  }
